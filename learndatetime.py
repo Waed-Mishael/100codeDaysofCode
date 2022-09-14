@@ -27,3 +27,5 @@ print(now)
 first_day_school = "1/9/2006 08:00:00"
 str_datetime_object = datetime.datetime.strptime(first_day_school, "%d/%m/%Y %H:%M:%S")
 print(str_datetime_object)
+
+"""1"""
