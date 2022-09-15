@@ -31,10 +31,22 @@ def convert_to_datetime(line):
         extracted_timedate = datetime.fromisoformat(line_lst[1])
         return extracted_timedate
 
+
 def time_between_shutdowns(loglines):
     """TODO 2:
        Extract shutdown events ("Shutdown initiated") from loglines and
        calculate the timedelta between the first and last one.
        Return this datetime.timedelta object.
     """
-    pass
+    loglines_splited = loglines.split()
+    loglines_splited[-1] = loglines_splited[-1].replace('.', '')
+    joined = loglines_splited[-2] + ' ' + loglines_splited[-1]
+    lst_shutdown_events = []
+
+    if joined == SHUTDOWN_EVENT:
+        lst_shutdown_events.append(loglines)
+    min_datetime = convert_to_datetime(lst_shutdown_events[0])
+    max_datetime = convert_to_datetime(lst_shutdown_events[-1])
+    time_diffrence =max_datetime - min_datetime
+    return time_diffrence
+
