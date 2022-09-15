@@ -26,7 +26,10 @@ def convert_to_datetime(line):
        returns:
        datetime(2014, 7, 3, 23, 27, 51)
     """
-    pass
+    line_lst = line.split(" ")
+    if line_lst[1][0].isnumeric():
+        extracted_timedate = datetime.fromisoformat(line_lst[1])
+        return extracted_timedate
 
 def time_between_shutdowns(loglines):
     """TODO 2:
