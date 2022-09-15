@@ -38,15 +38,17 @@ def time_between_shutdowns(loglines):
        calculate the timedelta between the first and last one.
        Return this datetime.timedelta object.
     """
-    loglines_splited = loglines.split()
-    loglines_splited[-1] = loglines_splited[-1].replace('.', '')
-    joined = loglines_splited[-2] + ' ' + loglines_splited[-1]
     lst_shutdown_events = []
 
-    if joined == SHUTDOWN_EVENT:
-        lst_shutdown_events.append(loglines)
+    for line in loglines:
+        if isinstance(line, str) and len(line) > 1:
+            line_splited = line.split()
+            line_splited[-1] = line_splited[-1].replace('.', '')
+            joined = line_splited[-2] + ' ' + line_splited[-1]
+            if joined == SHUTDOWN_EVENT:
+                lst_shutdown_events.append(line)
+
     min_datetime = convert_to_datetime(lst_shutdown_events[0])
     max_datetime = convert_to_datetime(lst_shutdown_events[-1])
     time_diffrence =max_datetime - min_datetime
     return time_diffrence
-
