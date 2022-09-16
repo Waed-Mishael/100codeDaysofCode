@@ -5,7 +5,8 @@ import datetime
 
 
 def exit_any_time(messege):
-    if messege == "exit":
+    """This function returns True if the input is 'exit' else it returns False"""
+    if messege == "exit" or "Exit" or "EXIT":
         return True
     else:
         return False
@@ -16,6 +17,7 @@ the_input = input("You are required to expect how long the minute will be.\npres
 
 
 def check_if_alpha(an_input):
+    """This function checks if the input is a letter or a word"""
     if an_input.isalpha():
         return True
     return False
