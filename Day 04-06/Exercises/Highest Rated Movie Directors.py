@@ -5,7 +5,7 @@ import csv
 import collections
 
 YEAR = 2023
-MINIMUM_YEAR = 2015
+MINIMUM_YEAR = 1960
 path = "movie_metadata.csv"
 file = open(path, newline='', encoding='utf-8')
 reader = csv.reader(file)
@@ -55,7 +55,7 @@ def sort_movies_by_year(lst):  # Counting Sort Algorithm
     output_lst = [0]*size  # movies lst size
     place = [0]*(YEAR - MINIMUM_YEAR)   # lst that has YEAR of elements
     for i in range(0, size):
-        place[lst[i]-MINIMUM_YEAR] += 1
+        place[lst[i][1]-MINIMUM_YEAR] += 1
     count = copy.copy(place)
 
     for j in range(len(place)):
@@ -66,15 +66,13 @@ def sort_movies_by_year(lst):  # Counting Sort Algorithm
     for b in range(len(place)-1, -1, -1):
         if b > 0:
             while place[b]-place[b-1] > 0:
-                output_lst[place[b]] = b + MINIMUM_YEAR
+                output_lst[place[b]] = (lst[place[b]][0], b + MINIMUM_YEAR, lst[place[b]][2])
                 place[b] -= 1
         else:
             while place[b]-0 >= 0:
-                output_lst[place[b]] = b + MINIMUM_YEAR
+                output_lst[place[b]] = (lst[place[b]][0], b + MINIMUM_YEAR, lst[place[b]][2])
                 place[b] -= 1
     return output_lst
-
-sort_movies_by_year([2015, 2016, 2016, 2015, 2016, 2018, 2017, 2020, 2019, 2017])
 
 
 def lst_all_movies_with_the_score(j):
@@ -94,6 +92,3 @@ def top_movies(num):
             for j in range(len(the_movie_lst)):
                 sorted_lst.append((the_movie_lst[j][1], the_movie_lst[j][2]))  # Give just the title and year
     return sorted_lst[0:num]
-
-
-print(len(minimum_year()))
