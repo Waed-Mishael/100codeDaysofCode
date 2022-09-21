@@ -1,5 +1,6 @@
 """In this challenge I have to get the 20 highest rated directors from a data set based on their
 average movie IMDB ratings. """
+
 import copy
 import csv
 import collections
@@ -14,8 +15,8 @@ his_movie = collections.namedtuple('his_movie', ['Title', 'Year', 'Score'])
 
 
 def get_important_data(the_file):
-    data = []
-
+    """This function reads the file line by line and give us a dictionary which contains the directors with
+    their works"""
     directors = collections.defaultdict(list)
     for line in the_file:
         try:
@@ -34,6 +35,8 @@ directors_dict = get_important_data(reader)
 
 
 def minimum_year():
+    """This function takes the dictionary as an input and give us all of the movies that have been made
+    since the MINIMUM YEAR global variable"""
     lst_by_year = []
     for director, movie in directors_dict.items():
         if directors_dict[director][0].Year > MINIMUM_YEAR:
@@ -41,7 +44,8 @@ def minimum_year():
     return lst_by_year
 
 def most_famous_directors(top_i):
-    """Directors with how many movies he/she did"""
+    """This function take the dictionary as an input and return the most common i directors
+    with how many movies he/she did"""
     count = collections.Counter()
     for director, his_movies in directors_dict.items():
         count[director] += len(his_movies)
@@ -49,7 +53,9 @@ def most_famous_directors(top_i):
 
 
 def sort_movies_by_year(lst):  # Counting Sort Algorithm
-    """Counting Sort Algorithm for the years"""
+    """Counting Sort Algorithm for the years, This Function takes the list that we made
+    in the minimum_year() function and returns a sorted list by years, with the movie title and year
+    and score"""
     # lst =elements: his_movie(Title='The Mongol King', Year=2005, Score=7.8) from  minimum_year()
     size = len(lst)
     output_lst = [0]*size  # movies lst size
@@ -76,6 +82,8 @@ def sort_movies_by_year(lst):  # Counting Sort Algorithm
 
 
 def lst_all_movies_with_the_score(j):
+    """This function takes a float between 0.0 and 10.0 and returns the movies with the same
+    score in a list with the director name and the movie's title and year"""
     lst = []
     for director, s_movie in directors_dict.items():
         if s_movie[0].Score == j:
@@ -84,6 +92,7 @@ def lst_all_movies_with_the_score(j):
 
 
 def top_movies(num):
+    """this function takes integer as an N input and returns the top N movies from the dictionary"""
     sorted_lst = []
     for i in range(100, -1, -1):
         wanted_score = i/10
@@ -92,3 +101,6 @@ def top_movies(num):
             for j in range(len(the_movie_lst)):
                 sorted_lst.append((the_movie_lst[j][1], the_movie_lst[j][2]))  # Give just the title and year
     return sorted_lst[0:num]
+
+
+print(top_movies(10))
