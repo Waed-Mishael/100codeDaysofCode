@@ -47,7 +47,7 @@ def most_famous_directors(top_i):
         count[director] += len(his_movies)
     return count.most_common(top_i)
 
-print(most_famous_directors(2))
+
 def sort_movies_by_year(lst):  # Counting Sort Algorithm
     """Counting Sort Algorithm for the years"""
     # lst =elements: his_movie(Title='The Mongol King', Year=2005, Score=7.8) from  minimum_year()
@@ -72,7 +72,7 @@ def sort_movies_by_year(lst):  # Counting Sort Algorithm
             while place[b]-0 >= 0:
                 output_lst[place[b]] = b + MINIMUM_YEAR
                 place[b] -= 1
-
+    return output_lst
 
 sort_movies_by_year([2015, 2016, 2016, 2015, 2016, 2018, 2017, 2020, 2019, 2017])
 
