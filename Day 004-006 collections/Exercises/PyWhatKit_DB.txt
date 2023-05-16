@@ -1,0 +1,210 @@
+Date: 13/1/2023
+Time: 11:50
+Phone Number: +972587999213
+Message: HI
+--------------------
+Date: 13/1/2023
+Time: 11:57
+Phone Number: +972587999213
+Message: HI
+--------------------
+Date: 13/1/2023
+Time: 11:59
+Phone Number: +972587999213
+Message: HI
+--------------------
+Date: 13/1/2023
+Time: 12:1
+Phone Number: +972587999213
+Message: HI
+--------------------
+Date: 13/1/2023
+Time: 12:2
+Phone Number: +972585583992
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 12:4
+Phone Number: +972585583992
+Message: ננסה את זה
+--------------------
+Date: 13/1/2023
+Time: 12:6
+Phone Number: +972585583992
+Message: ננסה את זה
+--------------------
+Date: 13/1/2023
+Time: 12:10
+Phone Number: +972585583992
+Message: ננסה את זה
+--------------------
+Date: 13/1/2023
+Time: 12:13
+Phone Number: +972585583992
+Message: שלום עפאף האם בבקשה את יכולה להגיד לי ...
+--------------------
+Date: 13/1/2023
+Time: 12:18
+Phone Number: +972585583992
+Message: שלום עפאף האם בבקשה את יכולה להגיד לי ...
+--------------------
+Date: 13/1/2023
+Time: 13:34
+Phone Number: +972585583992
+Message: שלום עפאף האם בבקשה את יכולה להגיד לי ...
+--------------------
+Date: 13/1/2023
+Time: 13:42
+Phone Number: +972587999213
+Message: Test message from a Python script!
+--------------------
+Date: 13/1/2023
+Time: 13:46
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 13:47
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 13:48
+Phone Number: +972585583992
+Message: hi mom
+--------------------
+Date: 13/1/2023
+Time: 13:48
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 13:49
+Phone Number: +972585583992
+Message: hi mom
+--------------------
+Date: 13/1/2023
+Time: 13:50
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 13:50
+Phone Number: +972585583992
+Message: hi mom
+--------------------
+Date: 13/1/2023
+Time: 14:5
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 14:5
+Phone Number: +972585583992
+Message: hi mom
+--------------------
+Date: 13/1/2023
+Time: 14:6
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 14:7
+Phone Number: +972587999213
+Message: تجربة
+--------------------
+Date: 13/1/2023
+Time: 14:7
+Phone Number: +972587999213
+Message: تجربة2
+--------------------
+Date: 13/1/2023
+Time: 14:9
+Phone Number: +972587999213
+Message: 1تجربة
+--------------------
+Date: 13/1/2023
+Time: 14:9
+Phone Number: +972587999213
+Message: 2تجربة
+--------------------
+Date: 13/1/2023
+Time: 14:27
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:28
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 14:30
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:30
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 14:32
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:33
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 14:39
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:39
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 14:40
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:41
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 14:48
+Phone Number: +972587999213
+Message: تجربة 1
+--------------------
+Date: 13/1/2023
+Time: 14:49
+Phone Number: +972587999213
+Message: تجربة 2
+--------------------
+Date: 13/1/2023
+Time: 15:4
+Phone Number: +972587999213
+Message: Hi Waad Can you please Go to kitchen
+--------------------
+Date: 13/1/2023
+Time: 15:5
+Phone Number: +972587999213
+Message: Hi Waad Can you please Go to Bathroom
+--------------------
+Date: 13/1/2023
+Time: 15:5
+Phone Number: +972587999213
+Message: Hi Waad Can you please Go to kitchen
+--------------------
+Date: 13/1/2023
+Time: 15:6
+Phone Number: +972587999213
+Message: Hi Waad Can you please Go to Bathroom
+--------------------
